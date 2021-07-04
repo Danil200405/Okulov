@@ -1,7 +1,7 @@
 program words;
-const n=20; m=10;{колво слов в тексте-n, number of letters-m}
-type Tstring=string[m]
-	var A :array[1..n] of Tsring;
+const n=40; m=20;{колво слов в тексте-n, number of letters-m}
+type Tstring=string[m];
+	var A :array[1..n] of Tstring;
 	    s:string;
 	    k,i: integer;
 procedure RemoveSpaces (var s:string);
